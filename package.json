@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "vitest --ui"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@vitest/ui": "^2.1.8"
   }
 }
